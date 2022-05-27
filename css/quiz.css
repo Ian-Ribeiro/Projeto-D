@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    padding: 2rem 0%;
+}
+
+a {
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+    color: red;
+    padding: 3vh 4vw;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+}
+
+
+section {
+    text-align: center;
+    border-style: double;
+    border-color: gray;
+}
+
+a:hover {
+    color: white;
+    background-color: red;
+}
+
+.picture {
+    min-height: 50vh;
+    min-width: 100vw;
+    background-image: url(../images/backgrounds/demo.png);
+    background-size: cover;
+    background-color: black;
+    background-position: 0% 10%;
+}

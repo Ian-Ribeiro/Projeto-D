@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    background-image: url(../images/backgrounds/campfire.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.banner {
+    background-image: url(../images/banners/banner2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+h2 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+
+h3 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.3rem;
+    color: white;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+
+a {
+    font-family: montserrat, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 3vh 4vw;
+    background-color: rgb(29, 29, 29);
+    border-radius: 15%;
+    border-style: none;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+a:hover {
+    background-color: crimson;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/backgrounds/ormond.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.introduction h1 {
+    margin: 3% 17%;
+}
+
+.introduction p {
+    margin: 3% 8%;
+}
+
+.introduction button {
+    margin: 5% 8%;
+}
+
+.meet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet h1 {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 3% 17%;
+}
+
+.character {
+    flex-basis: 50%;
+    text-align: center;
+    
+}
+
+.character p {
+    margin: 5% 10%
+}
+
+.portrait {
+    max-width: 40vw;
+    max-height: 40vh;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding-top: 3%;
+}
+
+footer h3 {
+    margin: 0% 10%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50vw;
+    margin: 3% 25%;
+}
+
+.social .icon {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.copyright {
+    background-color: black;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1380px) {
+    .character {
+        flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .portrait {
+        max-width: 70vw;
+        max-height: 70vh;
+    }
+  }
