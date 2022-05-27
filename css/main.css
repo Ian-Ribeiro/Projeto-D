@@ -7,7 +7,7 @@ body {
 }
 
 .banner {
-    background-image: url(../images/banners/banner2.png);
+    background-image: url(../images/backgrounds/banner.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -159,11 +159,45 @@ footer h3 {
     .character {
         flex-basis: 100%;
     }
-  }
+}
 
-  @media screen and (max-width: 700px) {
+@media screen and (max-width: 545px) {
     .portrait {
-        max-width: 70vw;
-        max-height: 70vh;
+        max-width: 55vw;
+        max-height: 55vh;
     }
-  }
+
+    .banner {
+        background-image: url(../images/backgrounds/small_banner.png);
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, a {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .introduction {
+        background-position: 70%;
+    }
+
+    .meet h1 {
+        margin-bottom: 10%;
+    }
+    
+    .social .icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.3rem;
+    }
+}

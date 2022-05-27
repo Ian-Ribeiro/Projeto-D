@@ -7,7 +7,7 @@ body {
 }
 
 .banner {
-    background-image: url(../images/killer_pictures/ghostface_caught_on_camera.jpeg);
+    background-image: url(../images/backgrounds/ghostface_caught_on_camera.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -48,6 +48,7 @@ p {
     text-align: center;
     font-size: 2rem;
     color: white;
+    margin: 5% 10%
 }
 
 
@@ -99,6 +100,10 @@ a:hover {
     min-width: 3.5vw;
 }
 
+.stats section {
+    flex-basis: calc(100%/3);
+}
+
 .power {
     display: flex;
     flex-direction: column;
@@ -141,6 +146,10 @@ a:hover {
     margin: 3% 0%;
 }
 
+iframe {
+    max-width: 80vw;
+}
+
 .home {
     margin: 5% 25%;
 }
@@ -179,4 +188,76 @@ footer h3 {
 
 .copyright p {
     margin: 0;
+}
+
+@media screen and (max-width: 1380px) {
+    .perk, .add-on {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .perk img, .add-on img {
+        max-width: 40vw;
+        max-height: 40vh;
+    }
+
+    .banner {
+        background-image: url(../images/backgrounds/ghostface.png);
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3, a {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+    
+    .social .icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.3rem;
+    }
+
+    iframe {
+        max-height: 40vh;
+    }
+
+    .stats {
+        flex-direction: column;
+        min-height: 0;
+    }
+
+    .stats h2 {
+        font-size: 1rem;
+        margin-left: 2%;
+    }
+
+    .stats p {
+        font-size: 1.3rem;
+    }
+
+    .value {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .value p {
+        flex-basis: 50%;
+    }
+
+    .home a {
+        padding: 2vh 3vw;
+    }
+
+    body {
+        margin: 0;
+        background-image: url(../images/backgrounds/small_ghostface_in_fog.png);
+    }
 }
