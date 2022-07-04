@@ -43,3 +43,12 @@ a:hover {
     background-color: black;
     background-position: 0% 10%;
 }
+
+.grow {
+    transition: transform 1s;
+    will-change: scale;
+}
+  
+.grow:hover {
+    transform: scale(1.2);
+}
