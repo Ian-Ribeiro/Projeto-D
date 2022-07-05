@@ -154,6 +154,11 @@ iframe {
     margin: 5% 25%;
 }
 
+.home a {
+    position: relative;
+    left: 35%;
+}
+
 footer {
     background-color: rgb(51, 51, 51);
     padding-top: 3%;
